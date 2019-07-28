@@ -105,3 +105,15 @@ var timesThree=function(number1,number4){
                     }
                 // Calculating totalPrice
 	var totalPrice = ( toppingPrice + crustPrice + sizePrice); console.log("totalPrice="+totalPrice);
+
+    // Enter values into the invoice table
+	$("#size").html(size+" Pizza");
+	$("#sizeprice").html("Ksh."+sizePrice+".00");
+	$("#crust").html(crust+" Crust");
+	$("#crustprice").html("+"+crustPrice+".00");
+	$("#topping").html(toppingDisplay);
+	$("#toppingprice").html("+"+toppingPrice+".00");
+	$("#totalprice").html("Ksh."+totalPrice+".00");
+
+
+};
