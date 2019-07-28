@@ -11,3 +11,6 @@ header,
     -o-background-size:cover;
     background-size:cover;
 }
+.top-nav-collapse{
+    background-color: #24355c;
+}
