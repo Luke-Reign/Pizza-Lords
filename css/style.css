@@ -14,3 +14,7 @@ header,
 .top-nav-collapse{
     background-color: #24355c;
 }
+/* Each sub-menu starts out hidden. */
+.initiallyHidden {
+	display:none;
+}
