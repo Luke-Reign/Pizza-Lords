@@ -103,4 +103,5 @@ var timesThree=function(number1,number4){
                     if (toppingSelect.length === 0) {
                         toppingDisplay = "No Toppings";
                     }
-                
+                // Calculating totalPrice
+	var totalPrice = ( toppingPrice + crustPrice + sizePrice); console.log("totalPrice="+totalPrice);
