@@ -48,4 +48,4 @@ To fix a bug or enhance an existing module, follow these steps:
 contact: lkibiku@gmail.com
 
 ## Licence
-This project is licensed under the terms of the MIT license
+This project is licensed under the terms of the MIT license.
