@@ -47,3 +47,60 @@ var timesThree=function(number1,number4){
                 });
                 
                 });
+                function invoice(){
+                    // Setting size and sizePrice based on selection
+                    var size = document.querySelector('input[name="size"]:checked').value; console.log("size="+size);
+                    var sizePrice = 0;
+                    if (size === "Small") {
+                        sizePrice = 500;
+                    };
+                    if (size === "Medium") {
+                        sizePrice = 750;
+                    };
+                    if (size === "Large") {
+                        sizePrice = 950;
+                    };
+                     console.log("sizePrice="+sizePrice);
+                     
+                     // Setting crust and crustPrice based on selection
+                    var crust = document.querySelector('input[name="crust"]:checked').value; console.log("crust="+crust);
+                    var crustPrice = 0
+                    if (crust==="Thin-crust") {
+                        crustPrice = 50;
+                    }; 
+                    if (crust==="Crispy") {
+                        crustPrice = 50;
+                    }; 
+                    if (crust==="Stuffed") {
+                        crustPrice = 50;
+                    }; 
+                    if (crust==="Glutten-free") {
+                        crustPrice = 50;
+                    }; 
+                    console.log("crustPrice="+crustPrice);
+                
+                    // Setting toppingSelect array and toppingPrice based on multiple check boxes selected. Also setting up toppingDisplay to convert the array into a convenient string.
+                    var toppingPrice = 0
+                    var topping = document.getElementsByName("topping");
+                    var toppingSelect = [];
+                    var toppingDisplay = "";
+                    for (var i = 0; i < topping.length; i++) {
+                        if (topping[i].checked) {
+                            toppingSelect.push(topping[i].value);
+                        };		
+                    }; console.log("toppingSelect="+toppingSelect);
+                    if (toppingSelect.length === 1) {
+                        toppingDisplay = toppingSelect[0];
+                    } else if (toppingSelect.length > 1) {
+                        for (i=0; i < toppingSelect.length; i++) {
+                                toppingDisplay += toppingSelect[i];
+                                if (i < (toppingSelect.length-1)) {
+                                    toppingDisplay += ", ";
+                                };
+                        };
+                    };		
+                    toppingPrice = toppingSelect.length * 100; console.log("toppingPrice="+toppingPrice);
+                    if (toppingSelect.length === 0) {
+                        toppingDisplay = "No Toppings";
+                    }
+                
