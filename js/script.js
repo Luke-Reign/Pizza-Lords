@@ -45,6 +45,7 @@ var timesOne = function(number1, number2) {
   });
   
   function invoice() {
+    event.preventDefault();
     // Setting size and sizePrice based on selection
     var size = document.querySelector('input[name="size"]:checked').value;
     console.log("size=" + size);
