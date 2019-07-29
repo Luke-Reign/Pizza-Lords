@@ -2,19 +2,23 @@ html,
 body,
 header,
 #intro {
-    height: 100%;
+  height: 100%;
 }
+
 #intro {
-    background: url("PIZZALORDS.jpg")no-repeat center center fixed;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
+  background: url("PIZZALORDS.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-.top-nav-collapse{
-    background-color: #24355c;
+
+.top-nav-collapse {
+  background-color: #24355c;
 }
+
 /* Each sub-menu starts out hidden. */
+
 .initiallyHidden {
-	display:none;
+  display: none;
 }
