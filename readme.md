@@ -28,8 +28,8 @@ To setup follow these steps:
 * The project now belongs to you
 
 ## Demo
-Here is a working live demo of Delani Studio:
-https://kibiku3.github.io/Pizza-Lords/
+Here is a working live demo of Pizza Lords:
+https://luke-reign.github.io/Pizza-Lords/
 
 ## Contributions
 want to contribute? Great!
