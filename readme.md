@@ -14,7 +14,7 @@ The Best Pizzas in town!
 Pizza Lords is a website where our restaurant-Pizza Lords- allow it's customers to order their pizzas online.Through the website one can see our menu and order their preferred pizza at the comfort of their homes. We also offer delivery services. All you want to know about us is in our live site : https://luke-reign.github.io/Pizza-Lords/
 
 ## Technologies Used
-Delani Studio is created with:
+Pizza Lords is created with:
 * HTML
 * CSS
 * MD Bootstrap
@@ -28,8 +28,8 @@ To setup follow these steps:
 * The project now belongs to you
 
 ## Demo
-Here is a working live demo of Delani Studio:
-https://kibiku3.github.io/Pizza-Lords/
+Here is a working live demo of Pizza Lords:
+https://luke-reign.github.io/Pizza-Lords/
 
 ## Contributions
 want to contribute? Great!
@@ -44,7 +44,7 @@ To fix a bug or enhance an existing module, follow these steps:
 * Create a Pull Request
 
 ## Authors Information
-* Samuel Kibiku
+* Luke Samuel Kibiku
 contact: lkibiku@gmail.com
 
 ## Licence
