@@ -11,7 +11,7 @@ The Best Pizzas in town!
 * [Licence](#licence)
 
 ## General Information
-Pizza Lords is a website where our restaurant-Pizza Lords- allow it's customers to order their pizzas online.Through the website one can see our menu and order their preferred pizza at the comfort of their homes. We also offer delivery services. All you want to know about us is in our live site : https://kibiku3.github.io/Pizza-Lords/
+Pizza Lords is a website where our restaurant-Pizza Lords- allow it's customers to order their pizzas online.Through the website one can see our menu and order their preferred pizza at the comfort of their homes. We also offer delivery services. All you want to know about us is in our live site : https://luke-reign.github.io/Pizza-Lords/
 
 ## Technologies Used
 Delani Studio is created with:
