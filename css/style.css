@@ -6,7 +6,7 @@ header,
 }
 
 #intro {
-  background: url("PIZZALORDS.jpg")no-repeat center center fixed;
+  background:linear-gradient(rgba(255, 255, 255, 0.212),rgba(255, 255, 255, 0.212)),url("PIZZALORDS.jpg")no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
